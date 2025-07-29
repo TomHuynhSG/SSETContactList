@@ -9,8 +9,8 @@ import Foundation
 import SwiftUI
 import CoreLocation
 
-struct Contact : Identifiable {
-    var id: UUID = UUID()
+struct Contact : Identifiable, Codable {
+    var id: Int
     var name: String
     var email: String
     var phone: String

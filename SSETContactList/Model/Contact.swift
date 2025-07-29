@@ -9,8 +9,8 @@ import Foundation
 import SwiftUI
 import CoreLocation
 
-struct Contact : Identifiable {
-    var id: UUID = UUID()
+struct Contact : Identifiable, Codable {
+    var id: Int
     var name: String
     var email: String
     var phone: String
@@ -20,5 +20,22 @@ struct Contact : Identifiable {
         Image(imageName)
     }
     
-    var locationCoordinate: CLLocationCoordinate2D
+    var coordinates: Coordinates
+    
+    // Computed property to expose the CLLocationCoordinate2D, keeping your view code unchanged
+    var locationCoordinate: CLLocationCoordinate2D {
+        CLLocationCoordinate2D(
+            latitude: coordinates.latitude,
+            longitude: coordinates.longitude
+        )
+    }
 }
+
+// Nested struct to match the structure of the "coordinates" object in the JSON
+struct Coordinates: Codable {
+    var latitude: Double
+    var longitude: Double
+}
+
+
+

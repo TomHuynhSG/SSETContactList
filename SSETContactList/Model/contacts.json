@@ -1,0 +1,156 @@
+[
+    {
+      "email": "tom.huynh@rmit.edu.vn",
+      "id": 1,
+      "phone": "091232522",
+      "imageName": "tom-huynh",
+      "name": "Tom Huynh",
+      "coordinates": {
+          "latitude": 10.729410965174186,
+          "longitude": 106.69522548892152
+      }
+    },
+    {
+      "email": "brett.kirk@rmit.edu.vn",
+      "id": 2,
+      "phone": "094355634",
+      "imageName": "brett-kirk",
+      "name": "Brett Kirk",
+      "coordinates": {
+          "latitude": 10.758256325746386,
+          "longitude": 106.67228491141948 
+      }
+    },
+    {
+      "email": "minh.dinh4@rmit.edu.vn",
+      "id": 3,
+      "phone": "0853453563",
+      "imageName": "minh-dinh",
+      "name": "Minh Dinh",
+      "coordinates": {
+          "latitude": 10.786710386116287,
+          "longitude": 106.73818415444727
+      }
+    },
+    {
+      "email": "tri.dangtran@rmit.edu.vn",
+      "id": 4,
+      "phone": "0674868566",
+      "imageName": "tri-dang",
+      "name": "Tri Dang",
+      "coordinates": {
+          "latitude": 10.79437079611712,
+          "longitude": 106.80394039521534 
+      }
+    },
+    {
+      "email": "long.nguyenminh@rmit.edu.vn",
+      "id": 5,
+      "phone": "0962456754",
+      "imageName": "long-nguyen",
+      "name": "Long Nguyen",
+      "coordinates": {
+          "latitude": 10.870169083568735,
+          "longitude": 106.76307939055084  
+      }
+    },
+    {
+      "email": "minh.vu@rmit.edu.vn",
+      "id": 6,
+      "phone": "0934634534",
+      "imageName": "minh-vu",
+      "name": "Minh Vu",
+      "coordinates": {
+          "latitude": 10.949713377874208,
+          "longitude": 106.8479555990988
+      }
+    },
+    {
+      "email": "linh.tranduc@rmit.edu.vn",
+      "id": 7,
+      "phone": "095463745",
+      "imageName": "linh-tran",
+      "name": "Linh Tran",
+      "coordinates": {
+          "latitude": 11.04578475693659,
+          "longitude": 106.58373092288061
+      }
+    },
+    {
+      "email": "alberto@rmit.edu.vn",
+      "id": 8,
+      "phone": "094354456",
+      "imageName": "alberto",
+      "name": "Alberto",
+      "coordinates": {
+          "latitude": 10.803071448238558,
+          "longitude": 106.64427589071033
+      }
+    },
+    {
+      "email": "cuong.nguyen@rmit.edu.vn",
+      "id": 9,
+      "phone": "0922342355",
+      "imageName": "cuong-nguyen",
+      "name": "Cuong Nguyen",
+      "coordinates": {
+          "latitude": 10.781771420238698,
+          "longitude": 106.6306334151885
+      }
+    },
+    {
+      "email": "khuong.nguyen@rmit.edu.vn",
+      "id": 10,
+      "phone": "09453346323",
+      "imageName": "khuong-nguyen",
+      "name": "Khuong Nguyen",
+      "coordinates": {
+          "latitude": 10.745642963019284,
+          "longitude": 106.57460623743862
+      }
+    },
+    {
+      "email": "luan.nguyen@rmit.edu.vn",
+      "id": 11,
+      "phone": "0925342356",
+      "imageName": "luan-nguyen",
+      "name": "Luan Nguyen",
+      "coordinates": {
+          "latitude": 10.642054789728482,
+          "longitude": 106.43875526875854
+      }
+    },
+    {
+      "email": "minh.tran@rmit.edu.vn",
+      "id": 12,
+      "phone": "0952534523",
+      "imageName": "minh-tran",
+      "name": "Minh Tran",
+      "coordinates": {
+          "latitude": 10.23862895243684,
+          "longitude": 106.3776103458168
+      }
+    },
+    {
+      "email": "sam.goundar@rmit.edu.vn",
+      "id": 13,
+      "phone": "095534534",
+      "imageName": "sam-goundar",
+      "name": "Sam Goundar",
+      "coordinates": {
+          "latitude": 9.991073220047838,
+          "longitude": 106.0169751879182 
+      }
+    },
+    {
+      "email": "ushik.shrestha@rmit.edu.vn",
+      "id": 14,
+      "phone": "0922345123",
+      "imageName": "ushik-shrestha",
+      "name": "Ushik Shrestha",
+      "coordinates": {
+          "latitude": 11.940952669293084,
+          "longitude": 108.45964507946036
+      }
+    }
+]

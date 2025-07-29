@@ -9,7 +9,7 @@ import Foundation
 import SwiftUI
 import CoreLocation
 
-struct Contact : Identifiable, Hashable {
+struct Contact : Identifiable {
     var id: UUID = UUID()
     var name: String
     var email: String

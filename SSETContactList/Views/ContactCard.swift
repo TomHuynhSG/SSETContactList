@@ -33,12 +33,14 @@ struct ContactCard: View {
        
                     InfoView(text: contact.email, imageName: "envelope.fill")
                 }
-                .padding()
-                
-      
+                .padding()      
             }
         }
-        
+        .toolbarBackground(
+            Color("rmit-blue"),
+            for: .navigationBar)
+        .toolbarBackground(.visible, for: .navigationBar)
+        .toolbarColorScheme(.dark, for: .navigationBar) // This makes the back button white
     }
 }
 

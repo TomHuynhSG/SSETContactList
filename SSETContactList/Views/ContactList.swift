@@ -16,7 +16,6 @@ struct ContactList: View {
                 } label: {
                     ContactRow(contact: contact)
                 }
-//
             }
             .navigationTitle("SSET Contact List 📒")
         }

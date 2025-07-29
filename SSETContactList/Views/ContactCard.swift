@@ -14,11 +14,7 @@ struct ContactCard: View {
             Color("rmit-blue")
                 .ignoresSafeArea()
             VStack{
-                MapView(myLocation: contact.locationCoordinate)
-                    .frame(height: 250)
                 CircleView(image: contact.image)
-                    .offset(y:-100)
-                    .padding(.bottom, -100)
                 Text(contact.name)
                     .font(.system(size: 40, weight: .bold, design: .serif))
                     .foregroundStyle(.white)
@@ -33,15 +29,19 @@ struct ContactCard: View {
        
                     InfoView(text: contact.email, imageName: "envelope.fill")
                 }
-                .padding()
-                
-      
+                .padding()      
             }
         }
-        
+        .toolbarBackground(
+            Color("rmit-blue"),
+            for: .navigationBar)
+        .toolbarBackground(.visible, for: .navigationBar)
+        .toolbarColorScheme(.dark, for: .navigationBar) // This makes the back button white
     }
 }
 
 #Preview {
-    ContactCard(contact: contacts[0])
+    NavigationView {
+        ContactCard(contact: contacts[0])
+    }
 }
